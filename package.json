@@ -4,7 +4,7 @@
   "description": "API em NodeJs usando Typescript, TDD, Clean Architecture, Design Patterns e SOLID principles.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Remysonrodrigues/clean-ts-api#readme",
   "devDependencies": {
+    "@types/jest": "^26.0.8",
     "@types/node": "^14.0.27",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "eslint": "^7.5.0",
@@ -28,7 +29,9 @@
     "eslint-plugin-standard": "^4.0.1",
     "git-commit-msg-linter": "^2.4.4",
     "husky": "^4.2.5",
+    "jest": "^26.2.2",
     "lint-staged": "^10.2.11",
+    "ts-jest": "^26.1.4",
     "typescript": "^3.9.7"
   }
 }
