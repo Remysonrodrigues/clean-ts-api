@@ -4,8 +4,8 @@
   "description": "API em NodeJs usando Typescript, TDD, Clean Architecture, Design Patterns e SOLID principles.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "test:staged": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest --passWithNoTests"
   },
   "repository": {
     "type": "git",
