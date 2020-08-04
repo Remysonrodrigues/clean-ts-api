@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Remysonrodrigues/clean-ts-api#readme",
   "devDependencies": {
+    "@types/bcrypt": "^3.0.0",
     "@types/jest": "^26.0.8",
     "@types/node": "^14.0.27",
     "@types/validator": "^13.1.0",
@@ -41,6 +42,7 @@
     "typescript": "^3.9.7"
   },
   "dependencies": {
+    "bcrypt": "^5.0.0",
     "validator": "^13.1.1"
   }
 }
